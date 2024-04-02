@@ -1,0 +1,392 @@
+<!doctype html>
+{% load static%}
+<html lang="en">
+ 
+<head>
+    
+   
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--====== Title ======-->
+    <title>KGH</title>
+    
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{%static 'images/favicon.png'%}" type="image/png">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="{%static 'css/slick.css'%}">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="{%static 'css/animate.css'%}">
+    
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="{%static 'css/nice-select.css'%}">
+    
+    <!--====== Nice Number css ======-->
+    <link rel="stylesheet" href="{%static 'css/jquery.nice-number.min.css'%}">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="{%static 'css/magnific-popup.css'%}">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="{%static 'css/font-awesome.min.css'%}">
+    
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="{%static 'css/default.css'%}">
+    
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="{%static 'css/hompage.css'%}">
+    
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="{%static 'css/responsive.css'%}">
+  
+  
+</head>
+
+<body>
+   
+    <!--====== PRELOADER PART START ======-->
+    
+<div class="preloader">
+        <div class="loader rubix-cube">
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3 color-1"></div>
+            <div class="layer layer-4"></div>
+            <div class="layer layer-5"></div>
+            <div class="layer layer-6"></div>
+            <div class="layer layer-7"></div>
+            <div class="layer layer-8"></div>
+        </div>
+    </div> 
+    
+    <!--====== PRELOADER PART START ======-->
+    
+    <!--====== HEADER PART START ======-->
+    
+    <header id="header-part">
+       
+        <div class="header-top d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="header-contact text-lg-left text-center">
+                            <ul>
+                                <li><img src="{% static 'images/all-icon/map.png'%}" alt="icon"><span>Vihiga County, Kenya</span></li>
+                                <li><img src="{% static 'images/all-icon/email.png'%}" alt="icon"><span>kaimosigirls@kmail.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header-opening-time text-lg-right text-center">
+                            <div class="board">
+                                <div class="text">
+                                  <q class="quote text-warning" data-animation="bounceInLeft"></q>
+                                  <h6 class="text-secondary" data-animation="bounceInLeft">Author  &nbsp;
+                                      <span class="author text-danger " data-animation="fadeInUp"></span>
+                                  </h6>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header top -->
+        
+        <div class="header-logo-support pt-1 pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="logo">
+                            <a href="{%url 'index'%}">
+                                <img src="{% static 'images/logo.png'%}" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="logo float-center d-none d-md-block">
+<h5 class="text-center text-success mt-2">Some content goes here</h5> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="support-button float-center d-none d-md-flex">
+                            <div class="support float-center">
+                                <div class="icon">
+                                    <img src="{% static 'images/all-icon/support.png'%}" alt="icon">
+                                </div>
+                                <div class="cont" id="head">
+                                    <p>Need Help? call us here</p>
+                                    <span>+254701537071</span>
+                                </div>
+                            </div>
+                            <div class="button float-right mt-2 me-0">
+                                <a href="#" class="btn btn-warning btn-sm "><b>Join us now</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header logo support -->
+        
+        <div class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-8">
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a class="active" href="{%url 'index'%}">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'about'%}">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'careers'%}">Careers</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="courses.html">Courses</a></li>
+                                            <li><a href="courses-singel.html">Course Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'events'%}">Events</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="events.html">Events</a></li>
+                                            <li><a href="events-singel.html">Event Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'teachers'%}">Our teachers</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{%url 'teacherProfile'%}">Teachers Profile</a></li>
+                                            <li><a href="teachers-singel.html">teacher Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'blog'%}">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-singel.html">Blog Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'contact'%}">Contact  Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{%url 'login'%}">Account</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{%url 'login'%}">Login</a></li>
+                                            <li><a href="{%url 'register'%}">Register</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- nav -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div>
+        
+    </header>
+    
+    <!--====== HEADER PART ENDS ======-->
+   
+    <!--====== SEARCH BOX PART START ======-->
+    
+    <div class="search-box">
+        <div class="serach-form">
+            <div class="closebtn">
+                <span></span>
+                <span></span>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Search by keyword">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </div> <!-- serach form -->
+    </div>
+     {% block content %}
+        <!-- Content from child templates will be inserted here -->
+     {% endblock %}
+     <footer id="footer-part">
+        <div class="footer-top pt-40 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about mt-40">
+                            <div class="logo d-md-flex d-none">
+                                <a href="{%url 'index'%}"><img src="{%static 'images/logo.png'%}" style="border-radius: 7px;" alt="Logo"></a>
+                            </div>
+                            <p> <h5 class="text-center text-danger"> <i class="fa fa-map-marker text-warning"></i> Location</h5>
+                                <iframe style="border-radius: 7px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.80860332172!2d34.848029267248734!3d0.1264525927800171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178012a42a166133%3A0x32eefdbc75865ce7!2sKaimosi%20Girls%20Secondary%20School!5e0!3m2!1sen!2ske!4v1709936652270!5m2!1sen!2ske" width="330" height="155" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                            <ul class="mt-20">
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube f-lg"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-link mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Sitemap</h6>
+                            </div>
+                            <ul>
+                                <li><a href="{%url 'index'%}"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="{%url 'about'%}"><i class="fa fa-angle-right"></i>About us</a></li>
+                                <li><a href="{%url 'careers'%}"><i class="fa fa-angle-right"></i>Careers</a></li>
+                                <li><a href="{%url 'blog'%}"><i class="fa fa-angle-right"></i>Blog</a></li>
+                                <li><a href="{%url 'events'%}"><i class="fa fa-angle-right"></i>Event</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Gallery</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Opportunities</a></li>
+                                <li><a href="teachers.html"><i class="fa fa-angle-right"></i>Teachers</a></li>
+                                <li><a href="#head"><i class="fa fa-angle-right"></i>Support</a></li>
+                                <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-link support mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Support</h6>
+                            </div>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>FAQS</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Privacy</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Policy</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Documentation</a></li>
+                            </ul>
+                        </div> <!-- support -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-address mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Contact Us</h6>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>Vihiga County, Kenya</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>+254725 878739</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>kaimosigirls@kmail.com</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> <!-- footer address -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer top -->
+        
+        <div class="footer-copyright pt-10 pb-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright text-md-left text-center pt-15">
+                            <p><a target="_blank" href="#"></a> </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="copyright text-md-right text-center pt-15">
+                            
+                           <p>&copy; <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script><a href="{%url 'index'%}"> &nbsp; Kaimosi Girls</a></p>
+                        
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
+    
+    <!--====== FOOTER PART ENDS ======-->
+   
+    <!--====== BACK TO TP PART START ======-->
+    
+    <button href="#" class="back-to-top btn btn-sm btn-warning"><i class="fa fa-angle-up"></i></button>
+    
+    
+    <!--====== BACK TO TP PART ENDS ======-->
+   
+    
+    
+    
+    
+    
+    
+    
+    <!--====== jquery js ======-->
+    <script src="{% static 'js/vendor/modernizr-3.6.0.min.js'%}"></script>
+    <script src="{% static 'js/vendor/jquery-1.12.4.min.js'%}"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="{% static 'js/slick.min.js'%}"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="{% static 'js/jquery.magnific-popup.min.js'%}"></script>
+    
+    <!--====== Counter Up js ======-->
+    <script src="{% static 'js/waypoints.min.js'%}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js'%}"></script>
+    
+    <!--====== Nice Select js ======-->
+    <script src="{% static 'js/jquery.nice-select.min.js'%}"></script>
+    
+    <!--====== Nice Number js ======-->
+    <script src="{% static 'js/jquery.nice-number.min.js'%}"></script>
+    
+    <!--====== Count Down js ======-->
+    <script src="{% static 'js/jquery.countdown.min.js'%}"></script>
+    
+    <!--====== Validator js ======-->
+    <script src="{% static 'js/validator.min.js'%}"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="{% static 'js/ajax-contact.js'%}"></script>
+    
+    <!--====== Main js ======-->
+    <script src="{% static 'js/main.js'%}"></script>
+    
+    <!--====== Map js ======-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="{% static 'js/map-script.js'%}"></script>
+    <script src="{% static 'js/bootstrap.bundle.js'%}"></script>  
+</body>
+</html>
